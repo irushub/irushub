@@ -15,5 +15,4 @@
 
 Connect with me for decentralized fun, code banter, or to debug life’s problems!
 
-![Snake animation](https://github.com/irushub/irushub/blob/main/dist/snake.svg)
 
