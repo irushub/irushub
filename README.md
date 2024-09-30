@@ -14,3 +14,5 @@
 - I write code that even my future self struggles to understand. 😅
 
 Connect with me for decentralized fun, code banter, or to debug life’s problems!
+
+![Snake animation](https://github.com/irushub/irushub/blob/output/github-contribution-grid-snake.svg)
