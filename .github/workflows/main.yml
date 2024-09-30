@@ -1,7 +1,6 @@
-name: Generate Snake Animation
+name: Generate Snake Animation and Deploy
 
 on:
-
   push:
     branches:
       - main
@@ -11,18 +10,19 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
-      
+
       - uses: Platane/snk@v2
         with:
           github_user_name: irushub
           output: dist/snake.svg
 
-      - name: Commit and push the result
+      - name: Deploy to GitHub Pages
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
           git add dist/snake.svg
-          git commit -m "Generate snake animation"
-          git push
+          git commit -m "Deploy to GitHub Pages"
+          git push --force "https://${{ secrets.GH_PAT }}@github.com/irushub/irushub.git" HEAD:gh-pages
