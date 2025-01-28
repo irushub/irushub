@@ -5,7 +5,7 @@
 ## What I Do:
 - 🤖 Make Discord bots that are smarter than your average human.
 - 🔧 Create browser extensions to make the internet a little less chaotic.
-- 🕸️ Designing websites that look great and sometimes even work!
+- 🕸️ Designing websites 
 - 🧠 I teach machines to learn. They're getting smarter; I'm just hoping they don't take over.
 - 🎨 Build cool stuff with NFTs and more!
 
