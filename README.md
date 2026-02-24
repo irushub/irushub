@@ -1,6 +1,6 @@
 # Hey there! 👋 I'm irus
 
-🚀 Student/Developer by day,  Blockchain enthusiast by night.  💻
+🚀 Developer by day,  Blockchain enthusiast by night.  💻
 
 ## What I Do:
 - 🤖 Make Discord bots that are smarter than your average human.
